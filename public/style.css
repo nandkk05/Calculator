@@ -1,0 +1,128 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #010101;
+}
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: #000;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+#result {
+    height: 120px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operator,
+.number,
+.empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.number,
+.operator {
+    background-color: white;
+}
+
+.empty {
+    background-color: black;
+}
+
+.number,
+.operator {
+    cursor: pointer;
+}
+
+.operator:active,
+.number:active {
+    font-size: 13px;
+}
+
+.operator:focus,
+.number:focus,
+.empty:focus {
+    outline: 0;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: rgb(165, 167, 172);
+    ;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: rgb(165, 167, 172);
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: rgb(165, 167, 172);
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: rgb(165, 167, 172);
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: rgb(245, 204, 20);
+}
+
+
+/* Heart Icon
+--------------------------------------------- */
+
+.site-footer .icon {
+    font-size: 20px;
+}
+
+.site-footer .love .icon {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.center,
+.love {
+    position: fixed;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
